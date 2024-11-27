@@ -3,19 +3,21 @@ name: Run gen.py and generate output
 on:
   push:
     branches:
-      - main   
+      - main
   pull_request:
     branches:
-      - main   
+      - main
   workflow_dispatch:
 
 jobs:
   generate_output:
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          submodules: 'recursive'
 
       - name: Set up Python
         uses: actions/setup-python@v4
