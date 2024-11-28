@@ -4,7 +4,7 @@
 
 </div>
 
-oxocarbon-fuzzel is a sleek and modern color scheme for fuzzel inspired by IBM's Carbon design system and the popular oxocarbon color palette.
+oxocarbon-fuzzel is a sleek and modern color scheme for fuzzel inspired by IBM's Carbon design system and the popular [`oxocarbon`](https://github.com/nyoom-engineering/base16-oxocarbon) color palette.
 
 ## Showcase
 <p align="center">
